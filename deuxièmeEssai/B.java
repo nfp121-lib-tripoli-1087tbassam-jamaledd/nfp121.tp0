@@ -17,7 +17,7 @@ public class B extends A
     public B()
     {
        super();
-        j = 64;
+        j = 84;
     }
 
     /**
@@ -29,6 +29,6 @@ public class B extends A
     public int sampleMethod(int y)
     {
         // Insérez votre code ici
-        return j+6 + super.sampleMethod(y);
+        return j+7 + super.sampleMethod(y);
     }
 }
