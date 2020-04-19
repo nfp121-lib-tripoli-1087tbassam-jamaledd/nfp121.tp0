@@ -5,18 +5,19 @@
  * @author (votre nom)
  * @version (un numéro de version ou une date)
  */
+//bassam makram jamaleddine numero dossier 1087t cnam tripoli a modifiee cette class
 public class B extends A
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private int x;
+    private int j;
 
     /**
      * Constructeur d'objets de classe B
      */
     public B()
     {
-        // initialisation des variables d'instance
-        x = 0;
+       super();
+        j = 64;
     }
 
     /**
@@ -28,6 +29,6 @@ public class B extends A
     public int sampleMethod(int y)
     {
         // Insérez votre code ici
-        return x + y;
+        return j+6 + super.sampleMethod(y);
     }
 }

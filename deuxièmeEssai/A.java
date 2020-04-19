@@ -5,18 +5,19 @@
  * @author (votre nom)
  * @version (un numéro de version ou une date)
  */
+// l'etudiant bassam makram jamaleddine tripoli numero dossier 1087t a modifie cette class
 public class A
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private int x;
-
+    private int k;
+     
     /**
      * Constructeur d'objets de classe A
      */
     public A()
     {
-        // initialisation des variables d'instance
-        x = 0;
+       
+        k = 8;
     }
 
     /**
@@ -27,7 +28,7 @@ public class A
      */
     public int sampleMethod(int y)
     {
-        // Insérez votre code ici
-        return x + y;
+       
+        return k+6 + y;
     }
 }
