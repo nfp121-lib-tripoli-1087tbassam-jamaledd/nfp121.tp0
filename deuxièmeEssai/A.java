@@ -29,6 +29,6 @@ public class A
     public int sampleMethod(int y)
     {
        
-        return k+6 + y;
+        return k+6 + (y*4);
     }
 }

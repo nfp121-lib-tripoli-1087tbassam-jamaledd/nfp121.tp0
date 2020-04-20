@@ -17,7 +17,7 @@ public class B extends A
     public B()
     {
        super();
-        j = 84;
+        j = 86;
     }
 
     /**
